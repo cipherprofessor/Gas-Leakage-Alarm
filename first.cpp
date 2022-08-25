@@ -1,6 +1,8 @@
-/* Stepper Motor Control */
+// Stepper Motor Control 
 
 #include <Stepper.h>
+#include <LiquidCrystal.h>
+
 const int stepsPerRevolution = 90;
 // change this to fit the number of steps per revolution
 // for your motor
@@ -24,8 +26,6 @@ void loop() {
    myStepper.step(-stepsPerRevolution);
    delay(500);
 }
-
-#include <LiquidCrystal.h>
 
 LiquidCrystal lcd( 2,3, 4, 5, 6, 7);
 
