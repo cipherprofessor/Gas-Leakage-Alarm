@@ -1,5 +1,3 @@
-// Stepper Motor Control 
-
 #include <Stepper.h>
 #include <LiquidCrystal.h>
 
